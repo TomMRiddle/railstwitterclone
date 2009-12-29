@@ -1,18 +1,16 @@
 class PagesController < ApplicationController
-  #@@ = class variable	exist in whole PagesController, not in erb
-  @@sitetitle = "Railstwitterclone - "
   
   def home
   	#@ = instance variable, exist only in home
-  	@title = @@sitetitle + "Home"
+  	@title = "Home"
   end
 
   def contact
-  	@title = @@sitetitle + "Contact"
+  	@title = "Contact"
   end
   
   def about
-  	@title = @@sitetitle + "About"
+  	@title = "About"
   end
 
 end
