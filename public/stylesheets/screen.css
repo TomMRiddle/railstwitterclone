@@ -1,38 +1,31 @@
 #container {
   width: 710px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 body {
+  margin: 0px;
+  padding: 10px;
   background: #cff;
   font:12px arial,sans-serif;
 }
 
-#header {
-  padding-top: 20px;
-}
 
 #header img {
-  padding: 1em;
   background: #fff;
-  -moz-border-radius:    10px;
-  -webkit-border-radius: 10px;
-  border-radius:         10px;
-
 }
 
 #content {
-  margin-top: 1em;
+  margin: 10px 0;
   font-size: 120%;
   padding: 20px;
   background: #fff;
-  -moz-border-radius:    10px;
-  -webkit-border-radius: 10px;
-  border-radius:         10px;
-
 }
 
 #content h1 {
   font-size: 200%;
+  margin-top: 10px;
 }
 
 /* Links */
@@ -51,38 +44,34 @@ a:visited {
   color: #069;
 }
 
-#nav {
+.nav {
   float: right;
   background-color: white;
-  padding: 0 0.7em;
+  padding: 5px;
   white-space: nowrap;
-  -moz-border-radius:    10px;
-  -webkit-border-radius: 10px;
-  border-radius:         10px;
-
 }
 
-#nav ul {
+.nav ul {
   margin: 0;
   padding: 0;
 }
 
-#nav ul li {
+.nav ul li {
   list-style-type: none;
   display: inline-block;
   padding: 0.2em 0;
 }
 
-#nav ul li a {
+.nav ul li a {
   padding: 0 5px;
   font-weight: bold;
 }
 
-#nav ul li a:visited {
+.nav ul li a:visited {
   color: #09c;
 }
 
-#nav ul li a:hover {
+.nav ul li a:hover {
   text-decoration: underline;
 }
 
@@ -97,8 +86,22 @@ a.btn_signup {
   font-size: 150%;
   font-weight: bold;
   padding: 20px;
+}
+
+.box {
   -moz-border-radius:    10px;
   -webkit-border-radius: 10px;
   border-radius:         10px;
+}
+
+#footer {
+  text-align: center;
+  width: 710px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer .nav {
+  float: none;
 }
 

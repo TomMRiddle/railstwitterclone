@@ -1,9 +1,9 @@
-<div id="header"><%= image_tag("header.gif", :alt => "Header") %>
-	<div id="nav">
+<div id="header"><%= image_tag("header.gif", :alt => "Header", :class => "box") %>
+	<div class="nav box">
 		<ul>
-			<li><%= link_to "Home", '#' %></li>
-			<li><%= link_to "Help", '#' %></li>
-			<li><%= link_to "Sign in", '#' %></li>
+			<li><%= link_to "Home", home_path %></li>
+			<li><%= link_to "Help", help_path %></li>
+			<li><%= link_to "Sign in", signin_path %></li>
 		</ul>
 	</div>
 </div>
