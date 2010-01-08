@@ -24,7 +24,7 @@ describe PagesController do
     it "should be successful" do
       get 'contact'
       response.should be_success
-    end
+end
     
     it "should have the correct title" do
       get 'contact'
