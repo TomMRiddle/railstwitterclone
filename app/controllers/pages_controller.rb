@@ -1,7 +1,6 @@
 class PagesController < ApplicationController
   
   def home
-  	#@ = instance variable, exist only in home
   	@title = "Home"
   end
 
@@ -11,6 +10,10 @@ class PagesController < ApplicationController
   
   def about
   	@title = "About"
+  end
+  
+  def help
+  	@title = "Help"
   end
 
 end
