@@ -40,7 +40,7 @@ describe "LayoutLinks" do
     response.should have_selector('title', :content => "About")
     click_link "Contact"
     response.should have_selector('title', :content => "Contact")
-    #ToDo: add test for sign in link
+    pending "Add test for sign in link"
   end
   
   #testing links on the frontpage
