@@ -58,9 +58,9 @@ body {
 	list-style: none;
 }
 
-.profile img.avatar {
+.profile h1 img.avatar {
   border: 1px solid #999;
-  margin-bottom: -6px;
+  margin-bottom: -15px;
 }
 
 /* Links */
