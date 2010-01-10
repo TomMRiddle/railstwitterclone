@@ -1,7 +1,7 @@
 module ApplicationHelper
 
   def img_header
-  	img_header = image_tag("headr.gif", :alt => "Catr - Eats tweets for breakfast", :class => "box")
+  	img_header = image_tag("header.gif", :alt => "Catr - Eats tweets for breakfast", :class => "box")
   end
   # Return a title on a per-page basis.
   def title
