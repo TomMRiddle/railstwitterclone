@@ -1,1 +1,15 @@
-<%= @user.name %>, <%= @user.email %>
+<div class="profile">
+	<div class="main">
+		<h1>
+			<%= avatar_img_tag(@user, 32) %>
+			<%= @user.name %>
+		</h1>
+	</div>
+	<div class="sidebar box">
+		<ul>
+			<li><strong>Name</strong> <%= @user.name %></li>
+			<li><strong>URL</strong>  <%= link_to user_path(@user), @user %></li>
+		</ul>
+	</div>
+</div>
+

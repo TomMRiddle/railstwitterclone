@@ -4,6 +4,10 @@
   margin-right: auto;
 }
 
+.debug_dump {
+	float:left;
+}
+
 body {
   margin: 0px;
   padding: 10px;
@@ -15,18 +19,48 @@ body {
 #header img {
   background: #fff;
   border: 0;
+  float: left;
 }
 
 #content {
   margin: 10px 0;
   font-size: 120%;
-  padding: 20px;
+  padding: 2%;
   background: #fff;
+  width: 96%;
+  float: left;
+  clear: both;
 }
 
 #content h1 {
   font-size: 200%;
   margin-top: 10px;
+}
+
+/* User show page */
+
+.profile .main {
+  width: 68%;
+  padding: 1%;
+  float: left;
+}
+
+.profile .sidebar {
+  width: 28%;
+  padding: 1%;
+  background: #ffc;
+  float: right;
+}
+
+.profile .sidebar ul {
+	padding: 5%;
+	margin: 0;
+	list-style: none;
+}
+
+.profile img.avatar {
+  border: 1px solid #999;
+  margin-bottom: -6px;
 }
 
 /* Links */
@@ -48,7 +82,7 @@ a:visited {
 .nav {
   float: right;
   background-color: white;
-  padding: 5px;
+  padding: 1%;
   white-space: nowrap;
 }
 
@@ -103,6 +137,8 @@ a.btn_signup {
 }
 
 #footer .nav {
-  float: none;
+  float: left;
+  width: 98%;
+  clear: both;
 }
 
